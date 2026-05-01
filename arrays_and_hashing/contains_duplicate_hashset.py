@@ -19,6 +19,23 @@ print(f"{containsDuplicate(nums)}")
 # 🔄 No need for nested loops (avoids O(n²))
 # 🏗️ Foundation for many DSA problems
 #  ⚙️ Easy to use (built-in in Python)
+
 # Disadvantages (quick)
 # ❌ Uses extra memory (O(n))
 # ❌ Unordered (no indexing)
+
+
+# 🚀 Set Functions (Quick Notes)
+# ➕ Add
+# add(x) → add single element
+# update(iterable) → add multiple elements
+
+# ❌ Remove
+# remove(x) → removes (error if not present)
+# discard(x) → removes (no error) ✅
+# pop() → removes random element
+# clear() → removes all elements
+
+# 🔍 Check
+# x in set → check if element exists
+# len(set) → number of elements
