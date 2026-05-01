@@ -9,3 +9,16 @@ def containsDuplicate(nums):
 nums = (1,2,3,4,5,6,7,1)
 
 print(f"{containsDuplicate(nums)}")
+
+# in this question we have used hash set that is a very imp concept
+# ⚡ O(1) average lookup time (very fast search)
+# 🔁 Automatically removes duplicates
+# 🧠 Easy duplicate detection (if num in set)
+# ⏹️ Early exit possible (stops as soon as duplicate found)
+# 📦 Efficient for membership checking
+# 🔄 No need for nested loops (avoids O(n²))
+# 🏗️ Foundation for many DSA problems
+#  ⚙️ Easy to use (built-in in Python)
+# Disadvantages (quick)
+# ❌ Uses extra memory (O(n))
+# ❌ Unordered (no indexing)
